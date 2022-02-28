@@ -1,0 +1,54 @@
+Timing:
+
+	timer = 125 Hz, 7500t per minute
+	Tiki-100 Blink cursor vector = $F057 (must point to dummy routine if graphics are to be used)
+	
+	 9t 		 208   bpm
+	10t per 16th @ 188   bpm
+	11t ----||---- 170   bpm <-- Presto
+	12t ----||---- 156   bpm
+	13t ----||---- 144   bpm
+	14t ----||---- 134   bpm <-- Vivace
+	15t ----||---- 125   bpm <-- Allegro
+	16t ----||---- 117   bpm <-- Allegretto
+	17t ----||---- 110   bpm
+	18t ----||---- 104   bpm <-- Moderato
+	19t ----||----  98.7 bpm
+	20t ----||----  93.8 bpm
+	21t ----||----  89.3 bpm
+	22t ----||----  85.2 bpm <-- Andante
+	23t ----||----  81.5 bpm
+	24t ----||----  78.1 bpm
+	25t ----||----  75.0 bpm <-- Adagietto
+	26t ----||----  72.1 bpm
+	27t ----||----  69.4 bpm
+	28t ----||----  67.0 bpm
+	29t ----||----  64.7 bpm
+	30t ----||----  62.5 bpm <-- Adagio
+
+Script Commands:
+
+	Each command translates directly to its corresponding tune-sequence byte-code.
+	See the code/player/interpereter.asm file for details on the binary encoding.
+
+	There are 3 instruments plus noise, one for each tone-generator on the AY-chip.
+	All of these work independent from each other.
+
+	WAIT x			Wait x ticks
+	SILENCE			Silence all instruments
+	ARPREL			Stop any playing arpeggio
+	END			End of music data
+	PLAY x y		Play tone pitch y on instrument x
+	SWEEP x y z		Sweep to tone pitch y on instrument x, during the duration of z
+	RELEASE x		Release any playing tone on instrument x
+	PLAYARP x a b c t	Play arpeggio on instrument(s) x, using triad a/b/c, switching note every t ticks
+	RET x			Return from waypoint-call, skipping x layers
+	WAYPOINT x		Waypoint x marker
+	SETNOISE x		Set noise pitch to x
+	SWEEPNOISE x y		Sweep to noise pitch x over the duration y
+	SETINST x a b c		Set instrument x parameters flags: Tone a, Noise b and Software envelope c.
+	SETENV x y z a b c e	Set Software envelope for instrument x to attack volume y, sustain volume z, attack duration a, peak hold e (0-7 ticks), decay duration b and release duration c
+	SETENV x y 0 a b c e	Set Hardware envelope for instrument x to HwE follow mode y (8*"enable" + 4*"round tone" + 2*"add detune" + 1*"detune tone"), HwE follow octave shift a (-8 to 7), HwE time period/HwE follow detune b*256 + c and HwE native mode e (4*attack + 2*alternate + 1*hold)
+	CALLWP x		Call waypoint x
+	JUMPWP x		Jump to waypoint x
+	TRANSPOSE x		Transpose everything x semitones (can be negative)

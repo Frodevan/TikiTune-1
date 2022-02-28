@@ -1,0 +1,5 @@
+TikiTune, a music player for Z80-machines using a AY-3-891x sound-chip.
+
+In this repo, you will find the source-code, and a few example tunes.
+The source-code can easiy be assembled with the pasmo assembler, but
+to compile music tune byte-code you may want to make your own tools.

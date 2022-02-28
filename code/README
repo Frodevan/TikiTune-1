@@ -1,0 +1,71 @@
+
+	music.asm	
+
+		Player main. Links the synth and the player into one binary.
+		Assemble to MUSIC.BIN, with equate SYSTEM set to the according
+		target system (define from command line, see synth/synth.asm
+		for values for this).
+
+	tikitune.asm
+
+		Player loader/interface main, for TIKI-100 with TIKO or otherwise
+		any CP/M-compatible OS. Requires MUSIC.BIN to be pre-assembled.
+		Expects the 80-column TDV-2115 terminal emulator to be loaded.
+
+	tikitune_cpc.asm
+
+		Player loader main for Amstrad CPC. Requires MUSIC.BIN to be pre-
+		assembled. Replace last byte in binary with tune-data and Poke the
+		program into memory from address 0. Run from 0 or $100. Used with
+		an emulator for testing unfinished tunes on PC.
+
+	tiki100.inc
+
+		Equates related to Tiki-100.
+
+cpm/
+
+	CP/M related includes and generalized routines.
+
+	bdos.inc		BDOS-function and Zero-page equates
+	ascii.inc		ASCII equates.
+	dbprint.asm		Routines for printing various things to screen
+
+player/
+
+	Player module, divided into the player interface and the byte-code
+	interpretator. The player is sort of an extension to the synth, so
+	it won't assemble without it. The player is meant to be given a timer
+	interrupt for steady playback speed, and this is done by passing a
+	vector over the interface. A tune is uploaded by first getting a vector
+	over the interface, then loading the bytecode for the 
+
+  >>>	player.inc		Interface skeleton-equates; everything you need
+				to know in order to interface with the player,
+				even if it's as an already pre-assembled binary.
+  >>>	player.asm		Interface and player engine anchor. The interface
+				is used to controll the player, and the engine
+				keeps the bytecode interperator and synth running.
+	interpereter.asm	Byte-code interpereter, called by engine once
+				for every bytecode encountered. Uses the synth.
+
+synth/
+
+	AY-3-8912 synthesizer. Has a whole set of functions that can be called
+	for various controlls and effects. The synth engine needs to be updated
+	continuously to keep most effects running. See synth.asm for details.
+	Does not depend on anything else, and can be used standalone in any
+	program.
+
+  >>>	synth.inc		Equates for instrument names; nothing too special.
+  >>>	synth.asm		Anchor for synth. See this file for documentation.
+	instruments.asm		Instrument-control; manages the software envelopes,
+				frequency sweeps and hardware envelope.
+	instrdata.asm		Instrument-parameters datastructure.
+	noise.asm		Noise-control; manages noise-set and noise-sweep.
+	arpeggio.asm		Arpeggiator; plays 3 alternating tones on any
+				combination of instruments, using a selectable tempo.
+	tuning.asm		Tone-translation module; Finds the proper AY counter
+				period for any given tone.
+	*ay.asm			AY-chip interface modules for various hardware/systems.
+	linear.asm		16-bit linear slope-plotting routine.

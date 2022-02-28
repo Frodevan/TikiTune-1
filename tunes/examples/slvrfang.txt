@@ -1,0 +1,1457 @@
+-
+- Title: "Ginga Nagareboshi Gin/Silver Fang opening theme"
+-
+- by: "Goro Omi, Toei Animation Company"
+-
+
+silence
+---------------------------------------------------------------------------------------------------------------------------
+		setinst 0 1 0 1			setinst 1 1 0 1			setinst 2 0 1 1
+		setenv 0 4 8 2 104 52 0		setenv 1 2 6 2 104 52 0		setenv 2 8 4 52 52 26 0		wait 224
+---------------------------------------------------------------------------------------------------------------------------
+setnoise 30	play 0 C4			play 1 C4k			play 2 C3			wait 13
+
+sweepnoise 1 104												wait 13
+
+														wait 13
+
+														wait 13
+			
+														wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+		setenv 0 9 11 2 104 52 0	setenv 1 7 6 2 104 52 0		setenv 2 6 8 52 52 26 0
+		play 0 D4			play 1 D4k			play 2 D3			wait 13
+
+sweepnoise 30 224												wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+		setenv 0 12 13 2 224 52 0	setenv 1 10 9 2 224 52 0	setenv 2 9 12 52 26 26 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 F4			play 1 F4k			play 2 D3			wait 13
+sweepnoise 30 26								
+														wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+						release 1			setenv 2 14 4 3 3 52 1
+										play 2 F3			wait 7
+										play 2 F3			wait 6
+sweepnoise 1 26									play 2 F3			wait 7
+										play 2 F3			wait 6
+										setenv 2 12 4 3 3 52 1
+										play 2 F3			wait 7
+										play 2 F3			wait 6
+										play 2 F3			wait 7
+										play 2 F3			wait 6
+						setenv 1 15 14 52 26 244 0
+						play 1 F3			play 2 F3			wait 7
+										play 2 F3			wait 6
+										play 2 F3			wait 7
+										play 2 F3			wait 6
+										setenv 2 10 13 26 26 52 0
+setnoise 30									play 2 F3			wait 13
+									
+sweepnoise 1 26					sweep 1 B4 52							wait 13
+										
+						sweep 1 B6 26							wait 13
+
+														wait 13
+		setenv 0 13 12 2 13 52 4					
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 B4			release 1			release 2			wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setinst 2 1 1 1	setenv 2 12 10 2 7 13 4
+		play 0 A4			play 1 A3			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 A2			wait 13
+
+						play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+						setenv 1 9 8 2 12 13 0			
+		play 0 E4			play 1 E6			play 2 A2			wait 2
+						sweep 1 Eb6 17							wait 11
+
+										play 2 A2			wait 6
+						sweep 1 E6 17							wait 7
+
+										play 2 A2			wait 10
+						sweep 1 Eb6 17							wait 3
+
+										play 2 A2			wait 13
+
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 A4							play 2 A2			wait 1
+						sweep 1 E6 17							wait 12
+setnoise 30									setenv 2 12 0 2 7 13 2
+
+										play 2 A2			wait 5
+						sweep 1 Eb6 17							wait 8
+
+										play 2 A2			wait 9
+						sweep 1 E6 17							wait 6
+
+										play 2 A2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 B4							play 2 A2			wait 13
+
+						sweep 1 Eb6 104			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+						sweep 1 E6 13			play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+										play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						sweep 1 Eb6 104			play 2 A2			wait 13
+
+		play 0 A4							play 2 A2			wait 13
+
+						sweep 1 E6 13			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+		play 0 A2			sweep 1 Eb6 104			play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+										play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+
+		play 0 A2			sweep 1 E6 26			play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+						setenv 1 13 12 2 11 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 C5			play 1 F2			play 2 F2			wait 13
+
+						release 1			play 2 F2			wait 13
+
+						play 1 F2			play 2 F2			wait 13
+
+						release 1			play 2 F2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 B4			play 1 F3			play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 F2			wait 13
+
+						play 1 F2			play 2 F2			wait 13
+
+						release 1			play 2 F2			wait 13
+						setenv 1 9 8 2 12 13 0
+		play 0 F4			play 1 F6			play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 B4							play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 C5			play 1 F6			play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 B4			play 1 E6			play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 F2			wait 13
+
+		play 0 B4			play 1 E6			play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+		release 0							play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		playarp 0 G4 G5 G6 3						play 2 F2			wait 13
+
+						release 1			release 2			wait 7
+		arprel												wait 6
+
+		playarp 0 G4 G5 G6 3						play 2 F2			wait 13
+										
+										release 2			wait 7
+		arprel												wait 6
+
+		playarp 0 A4 A5 A6 3						play 2 F2			wait 13
+
+										release 2			wait 7
+		arprel												wait 6
+		setenv 0 14 12 2 13 52 4	setenv 1 13 12 2 12 13 0	setenv 2 12 0 2 7 13 2
+---------------------------------------------------------------------------------------------------------------------------
+setnoise 30	play 0 E4			play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+		release 0			play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 A4			play 1 E3			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 A2			wait 13
+
+		release 0			play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+		play 0 B4			play 1 Eb3			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+		play 0 C5			play 1 E3			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+						play 1 G2			play 2 A2			wait 13
+setnoise 30	setenv 0 14 12 2 13 104 4					setenv 2 12 0 2 7 13 2
+						release 1			play 2 A2			wait 13
+
+		play 0 E4			play 1 B2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		release 0			play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+						play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+						playarp 1 E5 A5 C6 3		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+						setenv 1 13 12 2 12 13 0
+						arprel	play 1 A2		play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+						play 1 Eb3			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+		setenv 0 12 11 2 12 13 0	setenv 1 11 9 2 12 13 0
+		play 0 C5			playarp 1 E5 A5 C6 3		play 2 A2			wait 13
+
+						arprel				play 2 A2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+		play 0 E5			play 1 E2			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 A2			wait 13
+
+						play 1 B2			play 2 A2			wait 13
+
+		release0			release 1			play 2 A2			wait 13
+		setenv 0 14 12 2 13 52 4	setenv 1 12 11 2 12 26 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 F4			play 1 F5			play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+		release 0			release 1			play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+		play 0 A4			playarp 1 C5 F5 A5 3		play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 F2			wait 13
+						setenv 1 13 12 2 12 13 0
+		release 0			arprel	play 1 F2		play 2 F2			wait 13
+
+						release 1			play 2 F2			wait 13
+
+		play 0 B4			play 1 B2			play 2 F2			wait 13
+
+										play 2 F2			wait 13
+						setenv 1 11 9 2 12 13 0	
+		play 0 C5			playarp 1 C5 F5 A5 3		play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+						arprel	play 1 E2		play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 F2			wait 13
+		setenv 0 14 12 2 13 104 4	setenv 1 11 9 2 12 13 0
+		play 0 F4			playarp 1 C5 F5 A5 3		play 2 F2			wait 13
+
+										play 2 F2			wait 13
+						setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		release 0			arprel				play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+						play 1 F2			play 2 F2			wait 13
+
+						release 1			play 2 F2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+						playarp 1 C5 F5 A5 3		play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 F2			wait 13
+						setenv 1 13 12 2 12 13 0
+						arprel	play 1 F2		play 2 F2			wait 13
+
+						release 1			play 2 F2			wait 13
+		setenv 0 14 12 2 12 13 0	setenv 1 11 9 2 12 13 0	
+		play 0 F2			playarp 1 C5 F5 A5 3		play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+		release 0							play 2 F2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 G2			playarp 1 D5 G5 B5 3		play 2 G2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 G2			wait 13
+
+										play 2 G2			wait 13
+
+		release 0							play 2 G2			wait 13
+		setenv 0 14 12 2 13 52 4	setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 E4			arprel	play 1 A2		play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+		release 0			play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+		play 0 A4			playarp 1 E5 A5 C6 3		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+						setenv 1 13 12 2 12 13 0
+		release 0			arprel	play 1 A2		play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+		play 0 B4			play 1 Eb3			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+						setenv 1 11 9 2 12 13 0
+		play 0 C5			playarp 1 E5 A5 C6 3		play 2 A2			wait 13
+
+										play 2 A2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+						arprel	play 1 G2		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 A2			wait 13
+						setenv 1 11 9 2 12 13 0
+		play 0 D5			playarp 1 E5 A5 C6 3		play 2 A2			wait 13
+
+										play 2 A2			wait 13
+						setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+						arprel	play 1 G2		play 2 G2			wait 13
+
+						release 1			play 2 G2			wait 13
+
+		sweep 0 Eb5 52			play 1 G2			play 2 G2			wait 13
+
+		sweep 0 B4 13			release 1			play 2 G2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+						playarp 1 G5 B5 D6 3		play 2 G2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 G2			wait 13
+						setenv 1 13 12 2 12 13 0
+						arprel	play 1 G2		play 2 G2			wait 13
+
+						release 1			play 2 G2			wait 13
+
+		play 0 C5			play 1 G3			play 2 G2			wait 13
+
+										play 2 G2			wait 13
+						setenv 1 11 9 2 12 13 0
+		play 0 D5			playarp 1 G5 B5 D6 3		play 2 G2			wait 13
+
+										play 2 G2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+						arprel	play 1 G2		play 2 G2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 G2			wait 13
+		setenv 0 14 12 2 13 104 4	setenv 1 11 9 2 12 13 0
+		play 0 E5			playarp 1 G5 B5 D6 3		play 2 G2			wait 13
+
+										play 2 G2			wait 13	
+						setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 F5 52			arprel	play 1 C2		play 2 C2			wait 13
+
+		sweep 0 E5 13			release 1			play 2 C2			wait 13
+
+		sweep 0 F5 52			play 1 C2			play 2 C2			wait 13
+
+		sweep 0 E5 13			release 1			play 2 C2			wait 13
+setnoise 6	release 0			setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+		sweep 0 F5 52			playarp 1 G5 C6 E6 3		play 2 C2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 E5 13							play 2 C2			wait 13
+						setenv 1 13 12 2 12 13 0
+						arprel	play 1 C2		play 2 C2			wait 13
+
+						release 1			play 2 C2			wait 13
+
+		play 0 E5			play 1 F#2			play 2 C2			wait 13
+
+										play 2 C2			wait 13
+						setenv 1 11 9 2 12 13 0
+		play 0 D5			playarp 1 G5 C6 E6 3		play 2 C2			wait 13
+
+										play 2 C2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+		play 0 C5			arprel	play 1 C2		play 2 C2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 C2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+		play 0 D5			playarp 1 G5 C6 E6 3		play 2 C2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 C2			wait 13
+						setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+						arprel	play 1 E2		play 2 E2			wait 13
+
+										play 2 E2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 E5			playarp 1 E5 Ab5 B5 3		play 2 E2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 E2			wait 13
+
+		sweep 0 F5 52							play 2 E2			wait 13
+
+		sweep 0 E5 13							play 2 E2			wait 13
+
+		sweep 0 F5 52			arprel				play 2 E2			wait 13
+
+		sweep 0 E5 13							play 2 E2			wait 13
+		release 0
+		sweep 0 F5 52											wait 13
+
+		sweep 0 E5 13											wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		sweep 0 F5 52			playarp 1 B3 B4 B5 3		play 2 E2			wait 13
+
+		sweep 0 E5 13							release 2			wait 13
+
+		sweep 0 F5 104			arprel								wait 13
+
+														wait 13
+
+		sweep 0 E5 26			playarp 1 B3 B4 B5 3		play 2 E2			wait 13
+
+										release 2			wait 13
+setnoise 30	setenv 0 14 12 2 13 52 4	setenv 1 13 12 2 12 13 0		setenv 2 12 0 2 7 13 2
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 E4			arprel	play 1 A2		play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+						
+		release 0			play 1 A2			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 A4			setenv 1 9 12 104 104 13 0	play 2 A2			wait 13
+setnoise 30					play 1 C6			setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+		play 0 B4							play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+		play 0 C5							play 2 A2			wait 13
+
+										play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+										play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+		setenv 0 14 12 2 13 104 4
+		play 0 E4							play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		release 0							play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+										play 2 A2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+						playarp 1 E5 A5 C6 3		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+		setenv 0 13 12 2 12 13 0
+		play 0 A2			arprel				play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+						setenv 1 13 10 2 12 26 0
+		play 0 E3			play 1 B5			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+		setenv 0 11 9 2 12 13 0
+		playarp 0 E5 A5 C6 3		play 1 A5			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+setnoise 6	setenv 0 13 12 2 12 13 0					setenv 2 12 10 2 7 13 4
+		arprel	play 0 E3		play 1 B5			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		release 0
+										play 2 A2			wait 13
+		setenv 0 11 9 2 12 13 0
+		playarp 0 E5 A5 C6 3		play 1 C6			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+		setenv 0 14 12 2 13 52 4
+---------------------------------------------------------------------------------------------------------------------------
+		arprel	play 0 F4		play 1 A5			play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+		release 0							play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+		play 0 A4			playarp 1 C5 F5 A5 3		play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 F2			wait 13
+						setenv 1 13 10 2 12 26 0
+		release 0			arprel	play 1 G5		play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+		play 0 B4							play 2 F2			wait 13
+
+										play 2 F2			wait 13
+						setenv 1 13 12 2 12 13 0
+		play 0 C5			play 1 F2			play 2 F2			wait 13
+
+						release 1			play 2 F2			wait 13
+setnoise 6					setenv 1 13 10 2 12 26 0	setenv 2 12 10 2 7 13 4
+		release 0			play 1 F5			play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 F2			wait 13
+		setenv 0 14 12 2 13 104 4
+		play 0 F4							play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		release 0							play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+						playarp 1 C5 F5 A5 3		play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 F2			wait 13
+		setenv 0 13 12 2 12 13 0	setenv 1 10 10 1 12 26 0
+		play 0 F2			arprel	play 1 F5		play 2 F2			wait 13
+
+		release 0							play 2 F2			wait 13
+
+		play 0 F2							play 2 F2			wait 13
+
+		release 0							play 2 F2			wait 13
+		setenv 0 11 9 2 12 13 0
+		playarp 0 C5 F5 A5 3						play 2 F2			wait 13
+
+										play 2 F2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		arprel								play 2 F2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 F2			wait 13
+		setenv 0 14 12 2 13 52 4
+		play 0 F4			sweep 1 E5 26			play 2 F2			wait 13
+
+		release 0							play 2 F2			wait 13
+		
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 E4			release 1			play 2 E2			wait 13
+
+		release 0							play 2 E2			wait 13
+						setenv 1 12 10 2 13 26 4
+		play 0 E4			play 1 E5			play 2 E2			wait 13
+
+		release 0							play 2 E2			wait 13
+setnoise 6	setenv 0 13 12 2 12 13 0					setenv 2 12 10 2 7 13 4
+						play 1 Ab5			play 2 E2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 E2			wait 13
+		
+		play 0 E3			play 1 B5			play 2 E2			wait 13
+
+										play 2 E2			wait 13
+
+						release 1			play 2 E2			wait 13
+
+										play 2 E2			wait 13
+						setenv 1 11 9 2 12 13 0
+		release 0			playarp 1 E5 Ab5 B5 3		play 2 E2			wait 13
+
+										play 2 E2			wait 13
+setnoise 6	setenv 0 14 12 2 13 52 4	setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+		play 0 Ab4			arprel	play 1 E2		play 2 E2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		release 0			release 1			play 2 E2			wait 13
+						setenv 1 11 9 2 12 13 0
+		play 0 Ab4			playarp 1 E5 Ab5 B5 3		play 2 E2			wait 13
+
+		release 0							play 2 E2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 B4			arprel				play 2 E2			wait 13
+
+										play 2 E2			wait 13
+						setenv 1 12 10 2 13 26 4
+		sweep 0 C5 52			play 1 E5			play 2 E2			wait 13
+
+		sweep 0 B4 13							play 2 E2			wait 13
+setnoise 6	release 0							setenv 2 12 10 2 7 13 4
+		sweep 0 C5 52			play 1 Ab5			play 2 E2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 B4 13							play 2 E2			wait 13
+		setenv 0 13 12 2 12 13 0
+		play 0 E3			play 1 E6			play 2 E2			wait 13
+
+										play 2 E2			wait 13
+
+						release 1			play 2 E2			wait 13
+
+										play 2 E2			wait 13
+						setenv 1 11 9 2 12 13 0
+		release 0			playarp 1 E5 Ab5 B5 3		play 2 E2			wait 13
+
+										play 2 E2			wait 13
+setnoise 6	setenv 0 14 12 2 13 52 4	setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+		play 0 B4			arprel	play 1 E2		play 2 E2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 E2			wait 13
+						setenv 1 11 9 2 12 13 0
+						playarp 1 E5 Ab5 B5 3		play 2 E2			wait 13
+
+										play 2 E2			wait 13
+						setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 D5			arprel	play 1 E2		play 2 D2			wait 13
+
+						release 1			play 2 D2			wait 13
+
+		sweep 0 D#5 52			play 1 E2			play 2 D2			wait 13
+
+		sweep 0 D5 13			release 1			play 2 D2			wait 13
+setnoise 6					setenv 1 11 9 2 12 13 0		setenv 2 12 10 2 7 13 4
+		sweep 0 D#5 52			playarp 1 E5 Ab5 B5 3		play 2 D2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 D5 13							play 2 D2			wait 13
+						setenv 1 13 12 2 12 13 0
+		sweep 0 D#5 52			arprel	play 1 E2		play 2 D2			wait 13
+
+		sweep 0 D5 13			release 1			play 2 D2			wait 13
+
+		sweep 0 D#5 52			play 1 E2			play 2 D2			wait 13
+		release 0
+		sweep 0 D5 13			release 1			play 2 D2			wait 13
+						setenv 1 11 9 2 12 13 0
+						playarp 1 E5 Ab5 B5 3		play 2 D2			wait 13
+
+										play 2 D2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 C5			arprel				play 2 D2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 D2			wait 13
+
+		play 0 D5			playarp 1 E5 Ab5 B5 3		play 2 D2			wait 13
+
+										play 2 D2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 E5			playarp 1 E3 E4 E5 3		play 2 E2			wait 13
+
+										release 2			wait 13
+		setenv 0 13 12 13 13 52 0
+						arprel								wait 13
+
+														wait 13
+
+						playarp 1 Ab3 Ab4 Ab5 3		play 2 E2			wait 13
+		play 0 E5
+		sweep 0 F5 104							release 2			wait 13
+
+		sweep 0 E5 13			arprel								wait 13
+		play 0 E5
+		sweep 0 F5 104											wait 13
+
+		sweep 0 E5 13			playarp 1 B3 B4 B5 3		play 2 E2			wait 13
+		play 0 E5
+		sweep 0 F5 52							release 2			wait 13
+
+		sweep 0 E5 13			arprel								wait 13
+		play 0 E5
+		sweep 0 F5 52											wait 13	
+
+		sweep 0 E5 13			playarp 1 E4 E5 E6 3		play 2 E2			wait 13
+		play 0 E5
+		sweep 0 F5 52							release 2			wait 13
+
+		sweep 0 E5 13			arprel								wait 13
+
+														wait 13
+		release 0
+---------------------------------------------------------------------------------------------------------------------------
+														wait 13
+
+														wait 13
+		setenv 1 13 12 2 12 13 0
+		play 0 D2			playarp 1 D4 D5 D6 3		play 2 D2			wait 13
+
+		release 0							release 2			wait 7
+						arprel								wait 6
+
+		play 0 D2			playarp 1 D4 D5 D6 3		play 2 D2			wait 13
+
+		release 0							release 2			wait 7
+						arprel								wait 6
+
+		play 0 E2			playarp 1 E4 E5 E6 3		play 2 E2			wait 13
+
+		release 0							release 2			wait 13
+
+														wait 13
+
+														wait 13
+		setenv 0 14 12 2 13 52 4
+		play 0 C5			arprel								wait 13
+
+		release 0											wait 13
+
+		play 0 D5											wait 13
+
+		release 0											wait 13
+
+		play 0 E5											wait 13
+
+														wait 13
+						setenv 1 13 12 2 12 13 0	setenv 2 12 0 2 7 13 2
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 F5 52			play 1 A2			play 2 A2			wait 13
+
+		sweep 0 E5 13			release 1			play 2 A2			wait 13
+						setenv 1 11 9 2 12 13 0
+		sweep 0 F5 52			playarp 1 F4 F5 F6 3		play 2 A2			wait 13
+
+		sweep 0 E5 13							play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		sweep 0 F5 52			playarp 1 E4 E5 E6 3		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 E5 13			arprel				play 2 A2			wait 13
+		release 0			setenv 1 13 12 2 12 13 0
+		sweep 0 F5 52			play 1 A2			play 2 A2			wait 13
+
+		sweep 0 E5 13							play 2 A2			wait 13
+
+						play 1 B2			play 2 A2			wait 13
+						
+						release 1			play 2 A2			wait 13
+		setenv 0 14 12 2 13 52 4
+		play 0 C5			play 1 B2			play 2 A2			wait 13
+
+		release 0			release 1			play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 D5			play 1 B3			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		release 0			release 1			play 2 A2			wait 13
+
+		play 0 E5			play 1 A2			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 F5 52			play 1 C3			play 2 A2			wait 13
+
+		sweep 0 E5 13			release 1			play 2 A2			wait 13
+						setenv 1 11 9 2 12 13 0
+		sweep 0 F5 52			playarp 1 F4 F5 F6 3		play 2 A2			wait 13
+
+		sweep 0 E5 13							play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		sweep 0 F5 52			playarp 1 E4 E5 E6 3		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 E5 13			arprel				play 2 A2			wait 13
+		release 0			setenv 1 13 12 2 12 13 0
+		sweep 0 F5 52			play 1 A2			play 2 A2			wait 13
+
+		sweep 0 E5 13							play 2 A2			wait 13
+
+						play 1 C3			play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+		setenv 0 14 12 2 13 52 4		
+		play 0 E5			play 1 C3			play 2 A2			wait 13
+
+		release 0			release 1			play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 E5			play 1 C4			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		release 0			release 1			play 2 A2			wait 13
+
+		play 0 F5			play 1 A2			play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+		setenv 0 14 12 2 9 52 0		
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 G5			play 1 G3			play 2 G2			wait 2
+		setenv 0 13 11 9 9 52 4
+		sweep 0 G#5 32											wait 8
+		play 0 G5	sweep 0 G5 8									wait 3
+---------------------------------------------				
+						release 1			play 2 G2			wait 5
+		sweep 0 G#5 32											wait 8
+---------------------------------------------			
+		play 0 G5	sweep 0 G5 8	play 1 G3			play 2 G2			wait 8
+		sweep 0 G#5 32											wait 5
+---------------------------------------------	
+						release 1			play 2 G2			wait 3
+		release 0	sweep 0 G5 8									wait 10
+		setenv 0 14 12 2 9 52 4
+---------------------------------------------	
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 G5			play 1 G4			play 2 G2			wait 2
+		setenv 0 13 11 9 9 52 4
+		sweep 0 G#5 32											wait 8
+		play 0 G5	sweep 0 G5 8									wait 3
+---------------------------------------------	
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 G2			wait 5
+		sweep 0 G#5 32											wait 8
+---------------------------------------------	
+		play 0 G5	sweep 0 G5 8	play 1 G2			play 2 G2			wait 8						
+		sweep 0 G#5 32											wait 5
+---------------------------------------------	
+										play 2 G2			wait 3
+		release 0	sweep 0 G5 8									wait 10
+		setenv 0 14 12 2 13 52 0
+---------------------------------------------
+
+		play 0 G5			play 1 A3			play 2 G2			wait 13
+		
+		release 0			release 1			play 2 G2			wait 13
+
+		play 0 G5			play 1 G2			play 2 G2			wait 13
+
+		sweep 0 A5 13			release 1			play 2 G2			wait 13
+setnoise 6	setenv 0 14 12 2 13 52 4					setenv 2 12 10 2 7 13 4
+						play 1 B3			play 2 G2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 G2			wait 13
+
+		play 0 E5			play 1 G2			play 2 G2			wait 13
+
+		sweep 0 Eb5 52							play 2 G2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 E5 13			play 1 C4			play 2 C3			wait 13
+
+		sweep 0 Eb5 104			release 1			play 2 C3			wait 13
+
+		sweep 0 E5 13			play 1 C4			play 2 C3			wait 13
+		
+		sweep 0 Eb5 104			release 1			play 2 C3			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		sweep 0 E5 13			play 1 C5			play 2 C3			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 Eb5 104			release 1			play 2 C3			wait 13
+
+		sweep 0 E5 13			play 1 C2			play 2 C3			wait 13
+		release 0
+										play 2 C3			wait 13
+							
+						play 1 C4			play 2 C3			wait 13
+
+						release 1			play 2 C3			wait 13
+							
+						play 1 C4			play 2 C3			wait 13
+
+						release 1			play 2 C3			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 E5			play 1 C5			play 2 C3			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 C3			wait 13
+
+						play 1 C2			play 2 C3			wait 13
+		release 0
+										play 2 C3			wait 13
+						
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 F5			play 1 D3			play 2 D3			wait 13
+
+						release 1			play 2 D3			wait 13
+
+		play 0 E5			play 1 D3			play 2 D3			wait 13
+		
+		release 0			release 1			play 2 D3			wait 13
+setnoise 6					setenv 1 12 10 2 12 13 0	setenv 2 12 10 2 7 13 4
+						playarp 1 Bb4 D5 F5 3		play 2 D3			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 D3			wait 13
+						setenv 1 13 12 2 12 13 0
+		play 0 D5			arprel	play 1 D3		play 2 D3			wait 13
+	
+		sweep 0 C#5 104			release 1			play 2 D3			wait 13
+
+		sweep 0 D5 13			play 1 D3			play 2 D3			wait 13
+
+		sweep 0 C#5 104			release 1			play 2 D3			wait 13
+						setenv 1 12 10 2 12 13 0
+		sweep 0 D5 13			playarp 1 Bb4 D5 F5 3		play 2 D3			wait 13
+		release 0
+		sweep 0 C#5 104							play 2 D3			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+		sweep 0 D5 13			arprel	play 1 D3		play 2 D3			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 D3			wait 13
+						setenv 1 12 10 2 12 13 0
+		play 0 D5			playarp 1 Bb4 D5 F5 3		play 2 D3			wait 13
+
+		sweep 0 E5 13							play 2 D3			wait 13
+						setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 E5			arprel	play 1 A2		play 2 A2			wait 13
+
+						release 1			play 2 A2			wait 13
+
+		play 0 D5			play 1 A2			play 2 A2			wait 13
+
+		release 0			release 1			play 2 A2			wait 13
+setnoise 6					setenv 1 12 10 2 12 13 0	setenv 2 12 10 2 7 13 4
+		play 0 C5			playarp 1 A4 C5 E5 3		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		release 0							play 2 A2			wait 13
+---------------------------------------------
+		setenv 0 14 12 2 9 52 4		setenv 1 13 12 2 12 13 0
+		play 0 C5			arprel	play 1 A2		play 2 A2			wait 2
+		setenv 0 13 11 9 9 52 4
+		sweep 0 B4 32											wait 8
+		play 0 C5	sweep 0 C5 8									wait 3
+---------------------------------------------
+						release 1			play 2 A2			wait 5
+		sweep 0 B4 32											wait 8
+---------------------------------------------
+		play 0 G5	sweep 0 C5 8	play 1 A2			play 2 A2			wait 8
+		sweep 0 B4 32											wait 5
+---------------------------------------------
+						release 1			play 2 A2			wait 3
+		release 0	sweep 0 C5 8									wait 10
+		setenv 0 14 12 2 13 52 0
+---------------------------------------------
+						setenv 1 12 10 2 12 13 0
+						playarp 1 A4 C5 E5 3		play 2 A2			wait 13
+
+										play 2 A2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+		play 0 D5			arprel	play 1 A2		play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 A2			wait 13
+						setenv 1 12 10 2 12 13 0
+		play 0 C5			playarp 1 A4 C5 E5 3		play 2 A2			wait 13
+
+										play 2 A2			wait 13
+						setenv 1 13 12 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 B4			arprel	play 1 B2		play 2 B2			wait 13
+
+		sweep 0 Bb4 52			release 1			play 2 B2			wait 13
+
+		sweep 0 B4 13			play 1 B2			play 2 B2			wait 13
+
+		sweep 0 Bb4 52			release 1			play 2 B2			wait 13
+setnoise 6					setenv 1 12 10 2 12 13 0	setenv 2 12 10 2 7 13 4
+		sweep 0 B4 13			playarp 1 F#4 B4 D5 3		play 2 B2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 Bb4 52							play 2 B2			wait 13
+						setenv 1 13 12 2 12 13 0
+		sweep 0 B4 13			arprel	play 1 B2		play 2 B2			wait 13
+		release 0
+		sweep 0 Bb4 52							play 2 B2			wait 13
+
+		play 0 B4			play 1 B2			play 2 B2			wait 13
+
+		release 0			release 1			play 2 B2			wait 13
+						setenv 1 12 10 2 12 13 0
+		play 0 C5			playarp 1 F#4 B4 D5 3		play 2 B2			wait 13
+
+		sweep 0 D5 13							play 2 B2			wait 13
+setnoise 6					setenv 1 13 12 2 12 13 0	setenv 2 12 10 2 7 13 4
+		release 0			arprel	play 1 B2		play 2 B2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 B2			wait 13
+						setenv 1 13 12 2 12 13 0	setinst 2 1 0 1	setenv 2 14 12 2 12 52 4
+		play 0 E5			playarp 1 Ab4 B4 E5 3		play 2 E3			wait 13
+
+		sweep 0 Eb5 52											wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 E5 13							release 2			wait 13
+
+		sweep 0 Eb5 52											wait 13
+setnoise 6					setenv 1 12 10 2 12 13 0	setinst 2 1 1 1	setenv 2 12 10 2 7 13 4
+		sweep 0 E5 13							play 2 E3			wait 13
+						setenv 1 10 8 2 12 13 0
+		sweep 0 Eb5 52							release 2			wait 13
+						setenv 1 8 6 2 12 13 0
+		sweep 0 E5 13							play 2 E3			wait 13
+						setenv 1 6 4 2 12 13 0
+		sweep 0 Eb5 52							release 2			wait 13
+						setenv 1 13 12 2 12 13 0	setinst 2 1 0 1	setenv 2 14 12 2 12 52 4
+		sweep 0 E5 13			playarp 1 Ab4 B4 E5 3		play 2 E3			wait 13
+		release 0
+		sweep 0 Eb5 52											wait 13
+
+		sweep 0 E5 13							release 2			wait 13
+	
+														wait 13
+		setenv 0 14 12 2 13 52 4	setenv 1 12 10 2 12 13 0	setinst 2 1 1 1	setenv 2 12 10 2 7 13 4
+		play 0 C5							play 2 E3			wait 13
+						setenv 1 10 8 2 12 13 0
+		release 0							release 2			wait 13
+						setenv 1 8 6 2 12 13 0
+		play 0 D5							play 2 E3			wait 13
+						setenv 1 6 4 2 12 13 0
+										release 2			wait 13
+
+		sweep 0 C#5 104			arprel				play 2 E3			wait 13
+
+		release 0							release 2			wait 13
+setnoise 30	setenv 0 14 14 7 13 52 0	setenv 1 12 11 2 12 13 0	setenv 2 12 0 2 7 13 2
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 E5			play 1 A4			play 2 A2			wait 13
+
+		sweep 0 Eb5 52							play 2 A2			wait 13
+		setenv 0 13 11 13 26 52 0
+		play 0 E5	sweep 0 E5 13					play 2 A2			wait 13
+
+		sweep 0 Eb5 52							play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		sweep 0 E5 13			play 1 A3			play 2 A2			wait 13
+setnoise 30	release 0							setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+						setenv 1 11 11 2 12 13 0
+						play 1 A4			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+						setenv 1 12 11 2 12 13 0
+						play 1 B4			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+		setenv 0 14 12 2 13 52 4
+		play 0 C5							play 2 A2			wait 13
+
+										play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 C5			play 1 A3			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+						setenv 1 11 11 2 12 13 0
+		play 0 D5			play 1 B4			play 2 A2			wait 13
+
+		sweep 0 F5 19							play 2 A2			wait 13
+		release 0			setenv 1 12 11 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 E5 13			play 1 C5			play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+
+		play 0 E5							play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+						play 1 E4			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+										play 2 A2			wait 13
+
+						play 1 E3			play 2 A2			wait 13
+
+										play 2 A2			wait 13
+setnoise 6	setenv 0 14 12 2 13 52 4					setenv 2 12 10 2 7 13 4
+		play 0 E5			play 1 A3			play 2 A2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 A2			wait 13
+
+						play 1 C4			play 2 A2			wait 13
+
+		release 0							play 2 A2			wait 13
+						setenv 1 11 10 2 12 13 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 G5			play 1 G5			play 2 G2			wait 13
+
+		release 0							play 2 G2			wait 13
+
+										play 2 G2			wait 13
+						setenv 1 12 10 2 12 13 0
+										play 2 G2			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 0 G5			playarp 1 G2 B4 D5 3		play 2 G2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		release 0							play 2 G2			wait 13
+						setenv 1 12 11 2 12 13 0
+						arprel	play 1 G2		play 2 G2			wait 13
+
+						release 1			play 2 G2			wait 13
+
+		play 0 G5			play 1 G2			play 2 G2			wait 13
+
+		sweep 0 A5 13			release 1			play 2 G2			wait 13
+						setenv 1 12 10 2 12 13 0
+						playarp 1 G2 B4 D5 3		play 2 G2			wait 13
+
+		release 0							play 2 G2			wait 13
+setnoise 6					setenv 1 12 11 2 12 13 0	setenv 2 12 10 2 7 13 4
+						arprel	play 1 G2		play 2 G2			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+						release 1			play 2 G2			wait 13
+						setenv 1 12 10 2 12 13 0
+		play 0 E5			playarp 1 G2 B4 D5 3		play 2 G2			wait 13
+
+										play 2 G2			wait 13
+						setenv 1 9 0 7 13 13 7
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 Eb5 104			arprel	play 1 C7		play 2 C3			wait 13
+
+		sweep 0 E5 13							play 2 C3			wait 13
+						setenv 1 12 10 2 12 13 0
+		sweep 0 Eb5 104			playarp 1 E4 C5 E5 3		play 2 C3			wait 13
+
+		sweep 0 E5 13							play 2 C3			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		sweep 0 Eb5 104			playarp 1 G4 C5 G5 3		play 2 C3			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 E5 13							play 2 C3			wait 13
+
+		sweep 0 Eb5 104			playarp 1 E4 C5 E5 3		play 2 C3			wait 13
+
+		sweep 0 E5 13							play 2 C3			wait 13
+
+		sweep 0 Eb5 104			playarp 1 G4 C5 G5 3		play 2 C3			wait 13
+
+		sweep 0 E5 13							play 2 C3			wait 13
+		release 0
+		sweep 0 Eb5 104			playarp 1 C5 E5 C5 3		play 2 C3			wait 13
+
+		sweep 0 E5 13							play 2 C3			wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+						playarp 1 E5 C6 E6 3		play 2 C3			wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+										play 2 C3			wait 13
+
+						arprel				play 2 C3			wait 13
+
+										play 2 C3			wait 13
+setnoise 6									setenv 2 13 10 2 8 13 4
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 F5			playarp 1 F4 A4 D5 3		play 2 D3			wait 13
+
+		sweep 0 E5 26											wait 13
+
+										release 2			wait 13
+
+		sweep 0 C5 26											wait 13
+
+		play 0 D5	sweep 0 D5 26	arprel								wait 13
+
+														wait 13
+
+		play 0 D5			playarp 1 F4 A4 D5 3		play 2 D3			wait 13
+
+		sweep 0 C#5 104											wait 13
+
+		sweep 0 D5 13							release 2			wait 13
+
+		sweep 0 C#5 104											wait 13
+setnoise 30									setenv 2 13 0 2 8 13 2
+		sweep 0 D5 13							play 2 D3			wait 13
+
+		sweep 0 C#5 104							play 2 D3			wait 13
+
+		sweep 0 D5 13							play 2 D3			wait 13
+--------------------------------
+		sweep 0 C#5 104											wait 5
+										play 2 D3			wait 8
+--------------------------------
+		sweep 0 D5 13			arprel								wait 9
+										play 2 D3			wait 4
+--------------------------------
+		release 0											wait 13
+		
+setnoise 6					setenv 1 12 10 2 12 13 0	setenv 2 13 10 2 8 13 4
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 E5			playarp 1 E4 A4 C5 3		play 2 A2			wait 13
+
+		release 0											wait 13
+
+		play 0 D5							release 2			wait 13
+
+		release 0											wait 13
+
+		play 0 C5			arprel								wait 13
+
+														wait 13
+		setenv 0 14 12 2 9 52 4
+---------------------------------------------
+		play 0 C5			playarp 1 E4 A4 C5 3		play 2 A2			wait 2
+		setenv 0 13 11 9 9 26 4
+		sweep 0 C#5 32											wait 8
+		play 0 C5	sweep 0 C5 8									wait 3
+---------------------------------------------
+														wait 5
+		sweep 0 C#5 32											wait 8
+---------------------------------------------
+		play 0 C5	sweep 0 C5 8					release 2			wait 8
+		sweep 0 C#5 32											wait 5
+---------------------------------------------
+														wait 3
+		release 0	sweep 0 C5 8									wait 10
+		setenv 0 0 0 2 1 1 1
+---------------------------------------------
+setnoise 30									setenv 2 13 0 2 8 13 2
+										play 2 A2			wait 13
+
+		play 0 B4							play 2 A2			wait 13
+		setenv 0 14 12 7 13 26 7
+		play 0 E5	sweep 0 E5 26					play 2 A2			wait 13
+
+		sweep 0 D5 1											wait 13
+		setenv 0 14 12 2 13 52 4
+		play 0 C5			arprel				play 2 A2			wait 13
+
+		release 0											wait 13
+		setenv 0 10 10 2 1 1 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 B4							play 2 E2			wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+setnoise 6					setenv 1 12 10 2 12 13 0	setenv 2 12 10 2 7 13 4
+		setenv 0 14 12 2 13 52 4	playarp 1 E4 G#4 B4 3		play 2 E2			wait 5
+		play 0 B4											wait 8
+
+										release 2			wait 9
+		play 0 C5											wait 4
+
+						arprel								wait 13
+
+		play 0 B4											wait 13
+setnoise 30									setenv 2 12 0 2 7 13 2
+		sweep 0 Bb4 104			playarp 1 E4 G#4 B4 3		play 2 E2			wait 13
+
+		sweep 0 B4 13											wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		sweep 0 Bb4 104			playarp 1 E4 G#4 B4 3		play 2 E2			wait 13
+
+		sweep 0 B4 13							release 2			wait 13
+setnoise 30									setenv 2 13 0 2 8 13 2
+		sweep 0 Bb4 104			playarp 1 E4 G#4 B4 3		play 2 E2			wait 13
+
+		sweep 0 B4 13											wait 13
+						setenv 1 13 11 2 12 104 0
+		sweep 0 Bb4 104			arprel	play 1 G#4						wait 13
+
+		sweep 0 B4 13			play 1 A4							wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		release 0			play 1 B4			play 2 E2			wait 13
+
+						release 1							wait 13
+
+														wait 13
+
+														wait 13
+
+										play 2 E2			wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+
+		play 0 B4							play 2 E2			wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+
+		play 0 A4							play 2 E2			wait 13
+
+														wait 13
+
+		play 0 G4											wait 13
+
+														wait 13
+						setenv 1 13 11 2 12 26 0
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 A4							play 2 A2			wait 13
+
+		sweep 0 Ab4 52											wait 13
+										setinst 2 1 0 1	setenv 1 13 11 2 12 26 0
+		sweep 0 A4 13			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+		sweep 0 Ab4 52							release 2			wait 13
+setnoise 6									setinst 2 1 1 1	setenv 2 12 10 2 7 13 4
+		sweep 0 A4 13			arprel				play 2 A2			wait 13
+
+		sweep 0 Ab4 52							release 2			wait 13
+										setinst 2 1 0 1	setenv 1 13 11 2 12 26 0
+		sweep 0 A4 13			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+		sweep 0 Ab4 52							release 2			wait 13
+setnoise 30									setinst 2 1 1 1	setenv 2 12 0 2 7 13 2
+		sweep 0 A4 13			arprel				play 2 A2			wait 13
+
+		sweep 0 Ab4 52											wait 13
+										setinst 2 1 0 1	setenv 1 13 11 2 12 26 0
+		sweep 0 A4 13			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+		sweep 0 Ab4 52							release 2			wait 13
+setnoise 6									setinst 2 1 1 1	setenv 2 12 10 2 7 13 4
+		sweep 0 A4 13			arprel				play 2 A2			wait 13
+
+		sweep 0 Ab4 52							release 2			wait 13
+										setinst 2 1 0 1	setenv 1 13 11 2 12 26 0
+		sweep 0 A4 13			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+		sweep 0 Ab4 52											wait 13
+setnoise 30									setinst 2 1 1 1	setenv 2 12 0 2 7 13 2
+---------------------------------------------------------------------------------------------------------------------------
+		sweep 0 A4 13			arprel				play 2 A2			wait 13
+
+		release 0											wait 13
+										setinst 2 1 0 1	setenv 1 13 11 2 12 26 0
+		play 2 A3			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+														wait 13
+setnoise 6									setinst 2 1 1 1	setenv 2 12 10 2 7 13 4
+						arprel				play 2 A2			wait 13
+
+										release 2			wait 13
+										setinst 2 1 0 1	setenv 1 13 11 2 12 26 0
+		play 2 A3			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+														wait 13
+setnoise 30									setinst 2 1 1 1	setenv 2 12 0 2 8 26 2
+		play 2 D3			playarp 1 D5 A5 D6 3		play 2 A2			wait 13
+
+														wait 13
+
+														wait 13
+
+														wait 13
+setnoise 6									setenv 2 12 10 2 7 13 4
+		play 2 A3			playarp 1 C5 A5 C6 3		play 2 A2			wait 13
+
+										release 2			wait 13
+
+														wait 13
+
+						arprel								wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+		play 0 A2			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+										release 2			wait 13
+
+		play 0 B2			playarp 1 B4 E5 B5 3		play 2 B2			wait 13
+
+										release 2			wait 13
+
+		play 0 C3			playarp 1 C5 A5 C6 3		play 2 C3			wait 13
+
+										release 2			wait 13
+
+		play 0 B2			playarp 1 B4 E5 B5 3		play 2 B2			wait 13
+
+										release 2			wait 13
+
+		play 0 A2			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+										release 2			wait 13
+
+		play 0 G2			playarp 1 G4 D5 G5 3		play 2 G2			wait 13
+
+										release 2			wait 7
+						arprel								wait 6
+
+		play 0 G2			playarp 1 G4 D5 G5 3		play 2 G2			wait 13
+
+										release 2			wait 13
+
+		play 0 A2			playarp 1 A4 E5 A5 3		play 2 A2			wait 13
+
+		release 0							release 2			wait 13
+
+---------------------------------------------------------------------------------------------------------------------------
+						arprel								wait 224
+end
